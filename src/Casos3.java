@@ -1,6 +1,10 @@
+import java.util.Scanner;
+
 public class Casos3 {
     public static void main(String[] args) {
-        char ch = 'O' ;
+        Scanner in = new Scanner(System.in) ;
+        System.out.println("Digite uma letra: ");
+        char ch = in.next().charAt(0);
 
         switch (ch){
             case 'a':
